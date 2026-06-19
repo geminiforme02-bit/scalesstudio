@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.scalesstudios.com/</loc>
+    <loc>https://geminiforme02-bit.github.io/scalesstudio/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.scalesstudios.com/services.html</loc>
+    <loc>https://geminiforme02-bit.github.io/scalesstudio/services.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.scalesstudios.com/booking.html</loc>
+    <loc>https://geminiforme02-bit.github.io/scalesstudio/booking.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

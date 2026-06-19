@@ -1,11 +1,11 @@
 {
-  "name": "Scales Studios",
-  "short_name": "Scales",
-  "description": "Luxury natural-hair salon in Atlanta, GA.",
+  "name": "Sam Scales — Barber & Grooming, Dasuya",
+  "short_name": "Sam Scales",
+  "description": "Premium men's barber shop & grooming studio in Dasuya, Punjab.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#024644",
-  "theme_color": "#024644",
+  "background_color": "#0a0807",
+  "theme_color": "#0a0807",
   "icons": [
     { "src": "brand_assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
     { "src": "brand_assets/favicon-48.png", "sizes": "48x48", "type": "image/png" }

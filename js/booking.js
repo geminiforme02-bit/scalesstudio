@@ -50,7 +50,7 @@
     const checks = [
       ["name", (v) => v.trim().length >= 2, "Please enter your name."],
       ["phone", (v) => v.replace(/[^0-9]/g, "").length >= 7, "Enter a valid phone number."],
-      ["email", (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v), "Enter a valid email address."],
+      ["email", (v) => v.trim() === "" || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v), "Enter a valid email address."],
       ["date", (v) => !!v, "Pick a preferred date."],
       ["time", (v) => !!v, "Pick a preferred time."],
     ];

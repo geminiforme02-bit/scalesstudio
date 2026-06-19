@@ -9,6 +9,9 @@ _*.png
 # Source video (not used by the site — only the extracted frames/ are)
 *.mp4
 
+# Source flyer screenshot (brand assets are generated from it)
+Screenshot *.png
+
 # Build-instruction notes (machine-specific)
 CLAUDE (1).md
 SKILL (2).md
