@@ -1,0 +1,18 @@
+# Dependencies (dev-only: used by screenshot.mjs)
+node_modules/
+
+# Local QA artifacts
+temporary screenshots/
+_*.mjs
+_*.png
+
+# Source video (not used by the site — only the extracted frames/ are)
+*.mp4
+
+# Build-instruction notes (machine-specific)
+CLAUDE (1).md
+SKILL (2).md
+
+# OS / editor
+.DS_Store
+Thumbs.db

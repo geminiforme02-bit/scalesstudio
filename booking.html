@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Book an Appointment — Scales Studios | Atlanta Hair Salon</title>
+<meta name="description" content="Book your appointment at Scales Studios in Atlanta. Choose your service, pick a time and reserve your chair for custom color, extensions, silk press or natural-hair care." />
+<meta name="keywords" content="book hair appointment Atlanta, Scales Studios booking, hair salon booking Atlanta, silk press appointment, extensions appointment" />
+<meta name="theme-color" content="#024644" />
+<link rel="canonical" href="https://www.scalesstudios.com/booking.html" />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Scales Studios" />
+<meta property="og:title" content="Book an Appointment — Scales Studios Atlanta" />
+<meta property="og:description" content="Reserve your chair for custom color, extensions, silk press or natural-hair care in Atlanta." />
+<meta property="og:image" content="brand_assets/og-image.jpg" />
+<meta property="og:url" content="https://www.scalesstudios.com/booking.html" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Book an Appointment — Scales Studios Atlanta" />
+<meta name="twitter:description" content="Book your healthy-hair transformation in Atlanta." />
+<meta name="twitter:image" content="brand_assets/og-image.jpg" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="brand_assets/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="48x48" href="brand_assets/favicon-48.png" />
+<link rel="apple-touch-icon" href="brand_assets/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.scalesstudios.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Book", "item": "https://www.scalesstudios.com/booking.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header" id="header">
+  <div class="container">
+    <a href="index.html" class="brand-mark" aria-label="Scales Studios — home">
+      <svg class="ss-glyph" viewBox="0 0 100 100" fill="none" aria-hidden="true" style="color:var(--teal-600)">
+        <text x="32" y="59" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="50" fill="currentColor">S</text>
+        <text x="68" y="71" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="50" fill="currentColor">S</text>
+        <line x1="74" y1="26" x2="26" y2="78" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+      </svg>
+      <span class="wordmark">Scales Studios<small>Atlanta · GA</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="booking.html" aria-current="page">Book</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+14049022147" class="btn btn-brass">Call (404) 902-2147</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-panel" id="mobilePanel">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="booking.html">Book</a>
+  <div class="m-contact">
+    <span>2690 Mount Wilkinson Pkwy, Suite 10 · Atlanta, GA</span>
+    <a href="tel:+14049022147">(404) 902-2147</a>
+  </div>
+  <a href="https://scalesstudios.booksy.com" target="_blank" rel="noopener" class="btn btn-brass">Book on Booksy
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </a>
+</div>
+
+<!-- Page hero -->
+<section class="page-hero" style="padding-bottom:clamp(2rem,4vw,3rem)">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="index.html">Home</a><span>/</span><span aria-current="page">Book</span>
+    </nav>
+    <span class="eyebrow" data-reveal>Reserve your chair</span>
+    <h1 data-reveal data-reveal-delay="1">Book your <em>visit.</em></h1>
+    <p class="lead" data-reveal data-reveal-delay="2">Three quick steps. Tell us what you'd love, pick a time, and we'll confirm the details. New guests welcome.</p>
+  </div>
+</section>
+
+<!-- Booking layout -->
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="booking-layout">
+
+      <!-- Form -->
+      <div class="booking-card" data-reveal>
+        <div class="stepper" aria-hidden="true">
+          <div class="dot active" data-dot="1"><b>1</b><span class="d-lbl">Service</span></div>
+          <div class="bar"></div>
+          <div class="dot" data-dot="2"><b>2</b><span class="d-lbl">Details</span></div>
+          <div class="bar"></div>
+          <div class="dot" data-dot="3"><b>3</b><span class="d-lbl">Confirm</span></div>
+        </div>
+
+        <form id="bookingForm" novalidate>
+
+          <!-- Step 1: Service -->
+          <div class="step-panel active" data-step="1">
+            <h2>What can we do for you?</h2>
+            <p class="sub">Choose your main service — you can add notes in the next step.</p>
+            <div class="choice-grid" role="radiogroup" aria-label="Service">
+              <div class="choice">
+                <input type="radio" name="service" id="s-color" value="Custom Color & Balayage" required />
+                <label for="s-color">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></span>
+                  <span><b>Custom Color</b><span>Balayage, gloss, all-over</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+              <div class="choice">
+                <input type="radio" name="service" id="s-ext" value="Hand-Tied Extensions" />
+                <label for="s-ext">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M7 3c0 4-2 6-2 9a3 3 0 0 0 6 0c0-3-2-5-2-9"/><path d="M16 3c0 4-2 6-2 9a3 3 0 0 0 6 0c0-3-2-5-2-9"/></svg></span>
+                  <span><b>Extensions</b><span>Length &amp; volume</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+              <div class="choice">
+                <input type="radio" name="service" id="s-silk" value="Silk Press & Styling" />
+                <label for="s-silk">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M4 7h11l4 3-4 3H4z"/></svg></span>
+                  <span><b>Silk Press</b><span>Press, trim &amp; style</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+              <div class="choice">
+                <input type="radio" name="service" id="s-nat" value="Natural Hair Care" />
+                <label for="s-nat">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M12 21c-4-3-7-6-7-10a7 7 0 0 1 14 0c0 4-3 7-7 10Z"/></svg></span>
+                  <span><b>Natural Hair</b><span>Cut, shape &amp; define</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+              <div class="choice">
+                <input type="radio" name="service" id="s-braid" value="Braids & Protective Styles" />
+                <label for="s-braid">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M9 3c0 3 6 3 6 6s-6 3-6 6 6 3 6 3"/></svg></span>
+                  <span><b>Braids</b><span>Protective styles</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+              <div class="choice">
+                <input type="radio" name="service" id="s-consult" value="New-Guest Consultation" />
+                <label for="s-consult">
+                  <span class="ci"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 3z"/></svg></span>
+                  <span><b>Consultation</b><span>Not sure? Start here</span></span>
+                  <span class="pick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+                </label>
+              </div>
+            </div>
+            <p class="field-err" id="err-service" style="color:#b4452f;font-weight:600;font-size:.82rem;min-height:1em;margin-top:.8rem"></p>
+            <div class="form-actions">
+              <span></span>
+              <button type="button" class="btn" data-next="2">Continue
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Details -->
+          <div class="step-panel" data-step="2">
+            <h2>Your details</h2>
+            <p class="sub">Pick a preferred date &amp; time — we'll confirm exact availability with you.</p>
+            <div class="field-grid">
+              <div class="field">
+                <label for="f-name">Full name <span class="req">*</span></label>
+                <input type="text" id="f-name" name="name" autocomplete="name" required />
+                <span class="err" data-err-for="name"></span>
+              </div>
+              <div class="field">
+                <label for="f-phone">Phone <span class="req">*</span></label>
+                <input type="tel" id="f-phone" name="phone" autocomplete="tel" required />
+                <span class="err" data-err-for="phone"></span>
+              </div>
+              <div class="field">
+                <label for="f-email">Email <span class="req">*</span></label>
+                <input type="email" id="f-email" name="email" autocomplete="email" required />
+                <span class="err" data-err-for="email"></span>
+              </div>
+              <div class="field">
+                <label for="f-date">Preferred date <span class="req">*</span></label>
+                <input type="date" id="f-date" name="date" required />
+                <span class="err" data-err-for="date"></span>
+              </div>
+              <div class="field">
+                <label for="f-time">Preferred time <span class="req">*</span></label>
+                <select id="f-time" name="time" required>
+                  <option value="">Select a time…</option>
+                  <option>Morning (9–11am)</option>
+                  <option>Midday (11am–2pm)</option>
+                  <option>Afternoon (2–5pm)</option>
+                  <option>Evening (5–7:30pm)</option>
+                </select>
+                <span class="err" data-err-for="time"></span>
+              </div>
+              <div class="field">
+                <label for="f-guest">Are you a…</label>
+                <select id="f-guest" name="guest">
+                  <option>New guest</option>
+                  <option>Returning guest</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="f-notes">Notes (optional)</label>
+                <textarea id="f-notes" name="notes" placeholder="Hair length, goals, inspo, anything we should know…"></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button type="button" class="btn-back" data-back="1">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> Back
+              </button>
+              <button type="button" class="btn" data-next="3">Review
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 3: Review -->
+          <div class="step-panel" data-step="3">
+            <h2>Review &amp; confirm</h2>
+            <p class="sub">Here's what we'll send to the studio. Looks good?</p>
+            <div class="review-list" id="reviewList"></div>
+            <p class="sub" style="margin-top:1.2rem;font-size:.85rem">This is a request — Scales Studios will reach out to confirm your exact time. Prefer instant booking? <a href="https://scalesstudios.booksy.com" target="_blank" rel="noopener" class="link-arrow" style="font-size:.85rem">Use Booksy</a>.</p>
+            <div class="form-actions">
+              <button type="button" class="btn-back" data-back="2">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg> Back
+              </button>
+              <button type="submit" class="btn btn-brass">Confirm request
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Success -->
+          <div class="step-panel" data-step="done">
+            <div class="success">
+              <div class="check"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div>
+              <h2>Request sent ✓</h2>
+              <p id="successMsg">Thank you! We've received your request and will reach out shortly to confirm your appointment at Scales Studios.</p>
+              <div class="hero-cta" style="justify-content:center">
+                <a href="index.html" class="btn">Back to home</a>
+                <a href="https://scalesstudios.booksy.com" target="_blank" rel="noopener" class="btn btn-ghost">Book instantly on Booksy</a>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Aside -->
+      <aside class="book-aside">
+        <div class="info-card" data-reveal data-reveal="right">
+          <h3>Visit the studio</h3>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4-4-7-7-7-11a7 7 0 0 1 14 0c0 4-3 7-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <div><span class="lbl">Address</span><a href="https://www.google.com/maps?q=2690+Mount+Wilkinson+Pkwy+Suite+10+Atlanta+GA+30339" target="_blank" rel="noopener">2690 Mount Wilkinson Pkwy, Suite 10<br/>Atlanta, GA 30339</a></div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 13l-1 4-3 1A14 14 0 0 1 4 7Z"/></svg>
+            <div><span class="lbl">Phone</span><a href="tel:+14049022147">(404) 902-2147</a></div>
+          </div>
+          <div class="info-row">
+            <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <div><span class="lbl">Email</span><a href="mailto:info@scalesstudios.com">info@scalesstudios.com</a></div>
+          </div>
+        </div>
+
+        <div class="info-card" data-reveal data-reveal="right" data-reveal-delay="1">
+          <h3>Hours</h3>
+          <ul class="hours-list">
+            <li class="closed"><span class="d">Monday</span><span>Closed</span></li>
+            <li><span class="d">Tuesday</span><span>10:00 – 6:00</span></li>
+            <li><span class="d">Wednesday</span><span>9:00 – 6:00</span></li>
+            <li><span class="d">Thursday</span><span>9:00 – 7:30</span></li>
+            <li><span class="d">Friday</span><span>9:00 – 7:30</span></li>
+            <li class="closed"><span class="d">Sat – Sun</span><span>Closed</span></li>
+          </ul>
+        </div>
+
+        <div class="map-card" data-reveal data-reveal="right" data-reveal-delay="2">
+          <iframe title="Scales Studios location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=2690+Mount+Wilkinson+Pkwy+Suite+10+Atlanta+GA+30339&output=embed"></iframe>
+        </div>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-mark" aria-label="Scales Studios — home" style="color:var(--cream)">
+          <svg class="ss-glyph" viewBox="0 0 100 100" fill="none" aria-hidden="true" style="color:var(--cream)">
+            <text x="32" y="59" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="50" fill="currentColor">S</text>
+            <text x="68" y="71" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="50" fill="currentColor">S</text>
+            <line x1="74" y1="26" x2="26" y2="78" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+          </svg>
+          <span class="wordmark" style="color:var(--cream)">Scales Studios<small>Atlanta · GA</small></span>
+        </a>
+        <p>A luxury natural-hair studio in Atlanta — building effortless, healthy hair, one personalized plan at a time.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/scalesstudios" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="mailto:info@scalesstudios.com" aria-label="Email">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+          <a href="tel:+14049022147" aria-label="Call">
+            <svg viewBox="0 0 24 24"><path d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L20 13l-1 4-3 1A14 14 0 0 1 4 7Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Book online</a></li>
+          <li><a href="https://scalesstudios.booksy.com" target="_blank" rel="noopener">Booksy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#color">Custom Color</a></li>
+          <li><a href="services.html#extensions">Extensions</a></li>
+          <li><a href="services.html#silkpress">Silk Press</a></li>
+          <li><a href="services.html#natural">Natural Hair</a></li>
+          <li><a href="services.html#braids">Braids</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-newsletter">
+        <h4>Visit &amp; updates</h4>
+        <ul style="margin-bottom:1.2rem">
+          <li>2690 Mount Wilkinson Pkwy, Ste 10<br/>Atlanta, GA 30339</li>
+          <li>Tue–Fri · By appointment</li>
+        </ul>
+        <p>Hair tips &amp; openings, no spam.</p>
+        <form class="news-form" data-demo="newsletter">
+          <input type="email" placeholder="Your email" aria-label="Email for newsletter" required />
+          <button type="submit" aria-label="Subscribe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Scales Studios · Atlanta, GA</span>
+      <span>Effortless, healthy hair.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>

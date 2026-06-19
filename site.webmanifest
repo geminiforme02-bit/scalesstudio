@@ -1,0 +1,13 @@
+{
+  "name": "Scales Studios",
+  "short_name": "Scales",
+  "description": "Luxury natural-hair salon in Atlanta, GA.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#024644",
+  "theme_color": "#024644",
+  "icons": [
+    { "src": "brand_assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "brand_assets/favicon-48.png", "sizes": "48x48", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "scales-studios",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs",
+    "shot": "node screenshot.mjs"
+  },
+  "dependencies": {
+    "puppeteer": "^25.1.0"
+  }
+}
